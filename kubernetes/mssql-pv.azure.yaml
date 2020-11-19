@@ -20,4 +20,7 @@ spec:
   resources:
     requests:
       storage: 1Gi
+<<<<<<< HEAD
       
+=======
+>>>>>>> 9b3c3263aab6ceb80528f2e0ca0fbf6cb65b192f
