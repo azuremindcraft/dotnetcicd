@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image:  houssemdocker/webapp:1.0 # acrforaks2020.azurecr.io/webapp:1.0
+        image: azimages.azurecr.io/$(Build.Repository.Name):v1.$(Build.BuildId) # acrforaks2020.azurecr.io/webapp:1.0
         ports:
         - containerPort: 80
         resources:
